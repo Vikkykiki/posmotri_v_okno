@@ -43,7 +43,7 @@ ol {
     background-color: #1b1919;
     inline-size: 1200px;
     block-size: 100%;
-    max-height: 800px;
+/*    max-height: 800px;*/
 }
 
 .visually-hidden {
@@ -58,11 +58,9 @@ ol {
 
 .content {
     display: flex;
-    gap: 31px;
+    gap: 30px;
     align-items: end;
-    justify-content: center;
-    justify-items: center;
-    flex-wrap: nowrap;
+    inline-size: 100%;
 }
 
 .content__details {
