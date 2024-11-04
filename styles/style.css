@@ -98,10 +98,12 @@ ol {
 }
 
 .search-form__label {
-    display: flex;
+    display: inline-flex;
+    text-align: left;
     align-items: center;
     gap: 5px;
     width: fit-content;
+    line-height: 21.6px;
     cursor: pointer;
     font-family: Fira Sans Condensed, sans-serif;
     font-weight: 400;
