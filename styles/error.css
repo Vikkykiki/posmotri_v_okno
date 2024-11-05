@@ -1,16 +1,19 @@
+/* Ошибки  */
+
 .error {
-  position: absolute;
-  inset: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #545050;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #545050;
+    inset: 0;
 }
 
 .error__title {
-  color: #fff;
-  font-family: Oswald, sans-serif;
-  font-size: 30px;
-  text-align: center;
-  text-transform: uppercase;
+    color: #fff;
+    font-family: Oswald, sans-serif;
+    font-size: 30px;
+    letter-spacing: -1px;
+    text-align: center;
+    text-transform: uppercase;
 }
